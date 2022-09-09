@@ -1,8 +1,156 @@
 @import url('http://fonts.cdnfonts.com/css/gt-walsheim');
 
 body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'GT Walsheim', sans-serif;
-    background-color: #FAF9F9;
+  margin: 0;
+  padding: 0;
+  font-family: 'GT Walsheim', sans-serif;
+  background-color: #FAF9F9;
+}
+
+#landing-img {
+  width: 100%;
+  height: fit-content;
+  background: url("https://www.oasis-land.com/wp-content/uploads/2022/09/little-Cay.png") no-repeat;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+#landing-img-inner {
+  max-width: 1440px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+#landing-img-inner h1 {
+  padding-top: 150px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 5em;
+  text-align: center;
+}
+
+#landing-img-inner h5 {
+  margin: 0;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+#about-east {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: fit-content;
+  width: 100%;
+  background-color: #1E4857;
+}
+
+#about-east h1 {
+  width: 100%;
+  color: #D6A53F;
+  font-size: 3em;
+  text-align: center;
+}
+
+#about-east-inner {
+  max-width: 1440px;
+  width: calc(100% - 90px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#flex-right-left {
+  display: flex;
+  flex-direction: row;
+}
+
+#flex-left {
+  width: 350px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#flex-left img {
+  width: 350px;
+  height: 500px;
+}
+
+#flex-right {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+#flex-right p {
+  font-size: 1.3em;
+  color: white;
+}
+
+#key-attractions {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.custom-shape-divider-top-1662720861 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1662720861 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1662720861 .shape-fill {
+  fill: #1E4857;
+}
+
+#key-attractions-innner {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+#row-areas {
+  width: calc(100% - 40px);
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-area-box {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-area-img {
+  height: 350px;
+  width: 350px;
+}
+
+.row-area-img img {
+  height: 350px;
+  width: 350px;
+}
+
+.row-area-text {
+  display: flex;
+  flex-direction: column;
 }
