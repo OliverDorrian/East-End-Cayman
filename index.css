@@ -256,7 +256,6 @@ body, html {
   background-size: cover;
   -webkit-backdrop-filter: blur(2em);
   backdrop-filter: blur(2em);
-
 }
 
 #quote h1 {
@@ -312,4 +311,135 @@ body, html {
 
 .custom-shape-divider-bottom-1662728925 .shape-fill {
   fill: #FFFFFF;
+}
+
+#new-quote {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+
+#new-quote-inner {
+  max-width: 1440px;
+  width: calc(100% - 90px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote {
+  border-left: 1.5px solid #000000;
+  color: #04313D;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 2em;
+  position: relative;
+  transition: 0.2s border ease-in-out;
+  z-index: 0;
+}
+
+blockquote:before {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: -4px;
+  height: 3em;
+  background-color: white;
+  width: 5px;
+  margin-top: -1em;
+}
+
+blockquote cite {
+  text-align: center;
+  color: #BC973F;
+  display: block;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+blockquote p {
+  font-size: 2em;
+  color: #000000 !important;
+  text-align: center;
+}
+
+blockquote:after {
+  content: "''";
+  position: absolute;
+  top: 50%;
+  left: -0.5em;
+  color: #000000;
+  font-size: 5em;
+  font-family: "Ionicons";
+  font-style: normal;
+  text-align: center;
+  text-indent: -2px;
+  width: 1em;
+  margin-top: -0.5em;
+  transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+}
+
+#final-section {
+  position: relative;
+  background-color: #04313D;
+  padding-bottom: 60px;
+}
+
+.custom-shape-divider-top-1662731519 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1662731519 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1662731519 .shape-fill {
+  fill: #FFFFFF;
+}
+
+#final-section h1 {
+  padding-top: 140px;
+  font-size: 3em;
+  text-align: center;
+  color: #D6A53F;
+  margin: 0;
+}
+
+#final-section-inner {
+  margin-top: 30px;
+  max-width: 1440px;
+  width: calc(100% - 90px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  #flex-right-left {
+    align-items: center;
+    
+  }
+
+  #flex-right p {
+    margin-top: 0;
+  } 
+  
+  #flex-right {
+    margin-left: 10px;
+  }
+
+  #about-east-inner {
+    width: calc(100% - 20px);
+  }
 }
