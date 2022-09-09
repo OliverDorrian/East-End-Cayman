@@ -119,6 +119,10 @@ body, html {
   fill: #1E4857;
 }
 
+#key-attractions {
+  background-color: #FAF9F9;
+}
+
 #key-attractions-innner {
   padding-top: 150px;
   text-align: center;
@@ -128,16 +132,22 @@ body, html {
 
 #row-areas {
   width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1440px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 150px;
 }
 
 .row-area-box {
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   height: 350px;
   display: flex;
   flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .row-area-img {
@@ -153,4 +163,33 @@ body, html {
 .row-area-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row-area-text h4 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.custom-shape-divider-bottom-1662722892 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1662722892 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1662722892 .shape-fill {
+  fill: #1E4857;
 }
