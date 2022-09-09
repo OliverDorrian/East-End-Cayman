@@ -193,3 +193,123 @@ body, html {
 .custom-shape-divider-bottom-1662722892 .shape-fill {
   fill: #1E4857;
 }
+
+
+#neighborhood {
+  width: 100%;
+  background-color: #1E4857;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#neighborhood-inner {
+  max-width: 1440px;
+  width: calc(100% - 90px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#neighborhood-innner h1 {
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+  color: #D6A53F;
+}
+
+#flex-one-two {
+  width: calc(100% - 90px);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#flex-one {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+#flex-two {
+  width: 350px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#flex-two img {
+  width: 350px;
+  height: 500px;
+}
+
+#flex-one p {
+  font-size: 1.3em;
+  color: white;
+}
+
+#quote {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/09/azzedine-rouichi-E8AcOg4NyDo-unsplash.jpg");
+  background-size: cover;
+  -webkit-backdrop-filter: blur(2em);
+  backdrop-filter: blur(2em);
+
+}
+
+#quote h1 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+#center-quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-shape-divider-top-1662728593 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1662728593 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1662728593 .shape-fill {
+  fill: #1E4857;
+}
+
+.custom-shape-divider-bottom-1662728925 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1662728925 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1662728925 .shape-fill {
+  fill: #FFFFFF;
+}
