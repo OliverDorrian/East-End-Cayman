@@ -227,6 +227,7 @@ body, html {
 
 #flex-one {
   margin-left: 30px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center
@@ -428,18 +429,176 @@ blockquote:after {
 
   #flex-right-left {
     align-items: center;
-    
+    flex-direction: column;
+  }
+
+  #flex-right {
+    padding-top: 30px;
   }
 
   #flex-right p {
+    text-align: justify;
     margin-top: 0;
+  }
+
+  #flex-one {
+    margin-right: unset;
   } 
   
+  #flex-one p {
+    text-align: justify;
+  }
+
   #flex-right {
     margin-left: 10px;
   }
 
   #about-east-inner {
     width: calc(100% - 20px);
+  }
+
+  #row-areas {
+    width: 100%;
+  }
+
+  .row-area-img {
+    width: 250px;
+  }
+
+  .row-area-img img {
+    width: 250px;
+  }
+
+
+  #flex-one-two {
+    flex-direction: column-reverse;
+    width: calc(100% - 20px);
+  }
+
+  #final-section-inner {
+    width: calc(100% - 20px);
+
+  }
+
+  #flex-one {
+    margin-left: unset;
+  }
+
+  #flex-two {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .row-area-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .row-area-img {
+    width: 350px;
+  }
+
+  .row-area-img img {
+    width: 350px;
+  }
+
+  .row-area-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #center-quote img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #center-quote img {
+    width: 300px;
+  }
+
+  #flex-right {
+    margin-left: unset;
+  }
+
+  #flex-two {
+    width: calc(100% - 10px);
+  }
+
+  #flex-left {
+    width: calc(100% - 10px);
+  }
+
+  #flex-left img {
+    width: 100%;
+  }
+
+  #flex-two img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row-area-text h4 {
+    font-size: 1.5em;
+  }
+
+  blockquote {
+    padding: 0px 1em;
+    margin: unset;
+    border-left: unset;
+  }
+
+  blockquote p {
+    font-size: 1.6em;
+  }
+
+  blockquote cite {
+    font-size: 2.5em;
+  }
+
+  blockquote:before {
+    display: unset !important;
+  }
+
+  blockquote:after {
+    display: unset !important;
+    content: "";
+  }
+
+  #new-quote-inner {
+    width: calc(100% - 10px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  #landing-img-inner {
+    display: none;
+  }
+
+  .row-area-box {
+    width: 100%;
+  }
+
+  .row-area-img {
+    width: 100%;
+  }
+
+  .row-area-img img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  #center-quote img {
+    width: 100%;
   }
 }
